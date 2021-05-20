@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.airbnb.android:paris:1.7.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc9d81dc703dd087440a94e355d78343/jetified-paris-1.7.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc9d81dc703dd087440a94e355d78343/jetified-paris-1.7.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc9d81dc703dd087440a94e355d78343/jetified-paris-1.7.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.airbnb.android/paris/1.7.3/86d2b86615201aaf5f61db56ddea1a61e12ff7a4/paris-1.7.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.airbnb.android/paris/1.7.3/4f59a52c300bfd8605c44aa9f9c32526a5722658/paris-1.7.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

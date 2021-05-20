@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_capitals">
+
+    <fragment
+        android:id="@+id/nav_capitals"
+        android:name="com.kumaran.mycollection.fragments.CapitalsFragment"
+        android:label="Capitals"
+        tools:layout="@layout/fragment_capitals" />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.kumaran.mycollection.fragments.NotificationFragment"
+        android:label="Custom Notification"
+        tools:layout="@layout/fragment_customnotifications"/>
+
+    <fragment
+        android:id="@+id/bottom_navigation"
+        android:name="com.kumaran.mycollection.fragments.BottomNavigationFragment"
+        android:label="Bottom Navigation"
+        tools:layout="@layout/fragment_bottom_navigation"/>
+
+    <fragment
+        android:id="@+id/nav_shapes"
+        android:name="com.kumaran.mycollection.fragments.Shapes"
+        android:label="Shapes"
+        tools:layout="@layout/fragment_shapes"/>
+
+    <fragment
+        android:id="@+id/nav_db"
+        android:name="com.kumaran.mycollection.fragments.SqlFragment"
+        android:label="SQL Database"
+        tools:layout="@layout/fragment_sql"/>
+
+    <fragment
+        android:id="@+id/nav_multi"
+        android:name="com.kumaran.mycollection.fragments.MultiThreading"
+        android:label="Multi Threading"
+        tools:layout="@layout/fragment_multi_threading"/>
+
+    <fragment
+        android:id="@+id/nav_pager"
+        android:name="com.kumaran.mycollection.fragments.ViewPagerFragment"
+        android:label="View Pager"
+        tools:layout="@layout/fragment_view_pager"/>
+
+    <fragment
+        android:id="@+id/nav_grid"
+        android:name="com.kumaran.mycollection.fragments.Instagrid"
+        android:label="Instagram Grid"
+        tools:layout="@layout/insta_grid_fragment"/>
+
+
+</navigation>

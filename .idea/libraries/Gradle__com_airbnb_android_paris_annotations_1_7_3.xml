@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.airbnb.android:paris-annotations:1.7.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.airbnb.android/paris-annotations/1.7.3/d05c6f7992ea6553e9f021b0a66fe94d44f3ab60/paris-annotations-1.7.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.airbnb.android/paris-annotations/1.7.3/ba58b07a53889bf9fee3ec99127c5c07f1d5fd37/paris-annotations-1.7.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.airbnb.android/paris-annotations/1.7.3/9c90698d5263ed135a8366542ccd77e5cbcdf74/paris-annotations-1.7.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

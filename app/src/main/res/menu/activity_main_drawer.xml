@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_capitals"
+            android:icon="@drawable/icon_capitals"
+            android:title="Capitals" />
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notification"
+            android:title="Custom Notification"/>
+
+        <item android:id="@+id/bottom_navigation"
+            android:icon="@drawable/ic_menu"
+            android:title="Bottom Navigation"/>
+
+        <item android:id="@+id/nav_shapes"
+            android:icon="@drawable/ic_square"
+            android:title="Shapes"/>
+
+        <item android:id="@+id/nav_db"
+            android:icon="@drawable/ic_db"
+            android:title="SQL Database"/>
+
+        <item android:id="@+id/nav_multi"
+            android:icon="@drawable/ic_baseline_multiple_stop_24"
+            android:title="Multi Threading"/>
+
+        <item android:id="@+id/nav_pager"
+            android:icon="@drawable/ic_pages"
+            android:title="ViewPager"/>
+
+        <item android:id="@+id/nav_grid"
+            android:icon="@drawable/ic_grid"
+            android:title="Instagram grid"/>
+
+
+    </group>
+</menu>
