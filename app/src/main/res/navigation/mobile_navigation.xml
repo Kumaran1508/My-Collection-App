@@ -53,5 +53,11 @@
         android:label="Instagram Grid"
         tools:layout="@layout/insta_grid_fragment"/>
 
+    <fragment
+        android:id="@+id/nav_selectables"
+        android:name="com.kumaran.mycollection.fragments.SelectableRecyclerFragment"
+        android:label="Selectables"
+        tools:layout="@layout/selectable_reycler_fragment"/>
+
 
 </navigation>

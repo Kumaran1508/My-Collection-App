@@ -16,12 +16,10 @@ import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
 import com.kumaran.mycollection.R;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
 public class Instagrid extends Fragment {
 
@@ -29,7 +27,8 @@ public class Instagrid extends Fragment {
     private FirebaseFirestore firestore = FirebaseFirestore.getInstance();
     private long images_count;
     private ArrayList<String> urls = new ArrayList<>();
-    private InstagridAdapter adapter;
+    private InstagridAdapter instagridAdapter;
+
 
     @Nullable
     @Override
@@ -41,6 +40,8 @@ public class Instagrid extends Fragment {
         instagramGrid.setLayoutManager(new GridLayoutManager(getContext(),3));
         instagramGrid.setHasFixedSize(true);
 
+
+
         firestore.collection("insta_grid").document("grid").get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
             @Override
             public void onSuccess(DocumentSnapshot documentSnapshot) {
@@ -49,8 +50,8 @@ public class Instagrid extends Fragment {
             }
         });
 
-        adapter = new InstagridAdapter(getContext(),urls);
-        instagramGrid.setAdapter(adapter);
+        instagridAdapter = new InstagridAdapter(getContext(),urls);
+        instagramGrid.setAdapter(instagridAdapter);
 
 
         return page;
@@ -73,7 +74,7 @@ public class Instagrid extends Fragment {
                 String url = uri.toString();
                 urls.add(url);
                 Collections.sort(urls,Collections.reverseOrder());
-                adapter.notifyDataSetChanged();
+                instagridAdapter.notifyDataSetChanged();
             }
         });
     }
